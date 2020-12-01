@@ -25,13 +25,13 @@ rl.question('What is your name? ', (nameVal) => {
 
             rl.question('What is your superpower? ', (superpowerVal) => {
               const superpower = superpowerVal;
-              console.log(`${name} loves listening to ${music} while ${activity}, devouring ${food} for ${favouriteMeal}, prefers ${sport} over any other sport, and is amazing at ${superpower}.`)
-              rl.close()
-            })
-          })
-        })
-      })
-    })
-  })
+              console.log(`${name} loves listening to ${music} while ${activity}, devouring ${food} for ${favouriteMeal}, prefers ${sport} over any other sport, and is amazing at ${superpower}.`);
+              rl.close();
+            });
+          });
+        });
+      });
+    });
+  });
 });
 
